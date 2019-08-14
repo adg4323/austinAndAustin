@@ -1,0 +1,120 @@
+ <style>
+
+
+ body {margin:0;height: 2000px;}
+ 
+.header {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 20px;
+ }
+
+ body {background-color: powderblue}
+
+ /* Fixed/sticky Icon bar (vertically aligned 50% from the top of the screen) */
+ .icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+ }
+
+ /* Style the icon bar links */
+ .icon-bar a {
+    display:block;
+    text-align: center;
+    padding: 08px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 50px;
+ }
+
+ /* Style the social media icons with color, if you want */
+ .icon-bar a:hover{
+    background-color: #000;
+ }
+
+ .facebook {
+    background: #3B5998;
+    color: white;
+ }
+
+ .twitter {
+    background: #55ACEE;
+    color: white;
+ }
+
+ .google {
+    background: #dd4b39;
+    color: white;
+ }
+
+ .linkedin {
+    background: #007bb5;
+ }
+
+ .youtube {
+    background: #bb0000;
+    color: white;
+ }
+
+ .content{
+    margin-left: 75px;
+    font-size: 30px;
+ }
+
+/*Picture with floating text*/
+ .container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: white;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+
+ </style>
+
+
+
+
+
+
+
+
+
+
+ 
